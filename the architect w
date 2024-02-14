@@ -1,0 +1,12 @@
+first pathon.code
+#first try.pathon
+Tempstr = input(" 请输入温度值")
+if Tempstr[-1]  in ['F', 'f']:
+   f =  eval(Tempstr[[0:-1]) * 1.8 + 32
+   print(" 转换后的温度值为：{:.2f}",format(Tempstr))
+elif Tempstr[-1] in [ 'C', 'c'):
+    c = (Tempstr[0:-1] + 32) * 1.8
+    print("转化后的温度: {:.2f}",format(Tempstr)
+else:
+    printf("输入错误”）
+  
